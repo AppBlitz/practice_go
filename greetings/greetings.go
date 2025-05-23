@@ -12,3 +12,10 @@ func Hello(name string) string {
 func Print(message string) string {
 	return message
 }
+
+func RunLoop(number int) {
+	for number < 10 {
+		number = number + 1
+	}
+	fmt.Println(number)
+}

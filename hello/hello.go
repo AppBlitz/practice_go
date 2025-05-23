@@ -1,11 +1,11 @@
 package main
 
-import (
-	"fmt"
-
-	"example.com/greetings"
-)
+import "fmt"
 
 func main() {
-	fmt.Println(greetings.Print("Hello of go"))
+	if v := 10; v > 11 {
+		fmt.Println("The number ", v)
+	} else if v < 11 {
+		fmt.Println(v)
+	}
 }
